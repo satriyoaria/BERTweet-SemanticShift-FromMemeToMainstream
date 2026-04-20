@@ -1,0 +1,30 @@
+# =============================================
+# BERTweet Semantic Shifting - Requirements
+# =============================================
+# Core Data & Scientific Computing
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+scipy>=1.10.0
+tqdm>=4.65.0
+
+# Machine Learning
+scikit-learn>=1.2.0
+
+# NLP - Hugging Face Transformers & PyTorch
+torch>=2.0.0
+transformers>=4.30.0
+
+# NLP - BERTweet Preprocessing
+nltk>=3.8.0
+emoji==0.6.0
+
+# NLP - spaCy (requires en_core_web_sm model)
+# After install, run: python -m spacy download en_core_web_sm
+spacy>=3.5.0
+
+# NLP - Sentence Transformers (for all-MiniLM-L6-v2)
+sentence-transformers>=2.2.0
+
+# Statistical Analysis
+statsmodels>=0.14.0
